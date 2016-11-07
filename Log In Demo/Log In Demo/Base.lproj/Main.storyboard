@@ -33,11 +33,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jBs-rr-UQn">
-                                <frame key="frameInset" minX="166" minY="173" width="42" height="30"/>
+                                <frame key="frameInset" minX="100" minY="173" width="198" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Log In"/>
                                 <connections>
                                     <action selector="logIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="azq-sc-RbU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z4f-o1-Igj">
+                                <frame key="frameInset" minX="165" minY="236" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Logout"/>
+                                <connections>
+                                    <action selector="logOut:" destination="BYZ-38-t0r" eventType="touchUpInside" id="utv-Jt-oiD"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -46,6 +54,7 @@
                     <connections>
                         <outlet property="label" destination="hsK-Id-lrc" id="Izp-v1-Ppt"/>
                         <outlet property="logInButton" destination="jBs-rr-UQn" id="osY-hu-hxN"/>
+                        <outlet property="logOutButton" destination="Z4f-o1-Igj" id="kqv-YM-v6w"/>
                         <outlet property="textField" destination="KfX-G7-jCj" id="j49-VZ-2lh"/>
                     </connections>
                 </viewController>
