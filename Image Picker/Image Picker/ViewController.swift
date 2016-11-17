@@ -12,10 +12,24 @@ class ViewController: UIViewController {
 
     @IBAction func experiment(_ sender: AnyObject) {
         
+        /*
+        for accessing the photo viewer
         let nextController = UIImagePickerController()
         
         self.present(nextController, animated: true) {
         }
+        */
+        
+        // For alerts
+        
+        let controller = UIAlertController()
+        controller.title = "Test Alert"
+        controller.message = "This is a test"
+        let okAction = UIAlertAction(title: "ok", style: UIAlertActionStyle.default) {action in
+            self.dismiss(animated: true, completion: nil)
+        }
+        controller.addAction(okAction)
+        self.present(controller, animated: true, completion: nil)
         
         
     }
