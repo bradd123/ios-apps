@@ -2,23 +2,21 @@
 
 import UIKit
 
-let number = 4
-
-var i = 2
-
-var isPrime = true
-
-if number == 1 {
-    isPrime = false
+func foo(x: Int) -> Int {
+    return x + 42
+}
+let bar = {(x: Int) -> Int
+    in
+    x + 42
 }
 
-while i * i <= number {
-    if (number % i == 0) {
-        isPrime = false
-        break
-    } else {
-        i = i + 1
-    }
+func curly(n: Int) -> Int {
+    return n * n
 }
-
-print (isPrime)
+func larry(x: Int) -> Int {
+    return x * (x + 1)
+}
+func moe(m: Int) -> Int {
+    return m * (m-1) * (m-2)
+}
+var stooges = [curly, larry, moe]

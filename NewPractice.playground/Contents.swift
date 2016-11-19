@@ -2,13 +2,9 @@
 
 import UIKit
 
-var str = "Hello, playground"
-
-var counter = 0
-
-var counterClosure = {
-    counter += 1
+class Person {
+    let name: String
+    init(name: String) {
+        self.name = name
+    }
 }
-
-counterClosure()
-counter
