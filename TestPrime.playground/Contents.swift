@@ -2,21 +2,19 @@
 
 import UIKit
 
-func foo(x: Int) -> Int {
-    return x + 42
-}
-let bar = {(x: Int) -> Int
+let q1 = DispatchQueue(label: "queue1")
+let q2 = DispatchQueue(label: "queue2")
+let q3 = DispatchQueue(label: "queue3")
+q1.async { () -> Void
     in
-    x + 42
+    print(1)
 }
-
-func curly(n: Int) -> Int {
-    return n * n
+q2.async { () -> Void
+    in
+    print(2)
 }
-func larry(x: Int) -> Int {
-    return x * (x + 1)
+q3.async { () -> Void
+    in
+    print(3)
 }
-func moe(m: Int) -> Int {
-    return m * (m-1) * (m-2)
-}
-var stooges = [curly, larry, moe]
+print("end")
