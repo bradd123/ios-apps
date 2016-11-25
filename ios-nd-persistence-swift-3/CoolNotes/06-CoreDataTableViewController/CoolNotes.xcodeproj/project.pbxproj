@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60C7F8E71DE8160C0038A66B /* NotebooksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C7F8E61DE8160C0038A66B /* NotebooksTableViewController.swift */; };
 		A934F3DF1D36A556000625CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A934F3DD1D36A556000625CA /* LaunchScreen.xib */; };
 		A9AECDD31D36CAA50051289E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9AECDD11D36CAA50051289E /* Model.xcdatamodeld */; };
 		ED9E071B1C90F369004C22C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E071A1C90F369004C22C1 /* AppDelegate.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		60C7F8E61DE8160C0038A66B /* NotebooksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotebooksTableViewController.swift; sourceTree = "<group>"; };
 		A934F3DE1D36A556000625CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A9AECDD21D36CAA50051289E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		ED9E07171C90F369004C22C1 /* CoolNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				EDFD7F181C92318D004EE292 /* CoreDataTableViewController.swift */,
+				60C7F8E61DE8160C0038A66B /* NotebooksTableViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				F20C82821D36C5A500E6D87D /* Note+CoreDataProperties.swift in Sources */,
 				F20C82831D36C5A500E6D87D /* Notebook.swift in Sources */,
 				ED9E071D1C90F369004C22C1 /* ViewController.swift in Sources */,
+				60C7F8E71DE8160C0038A66B /* NotebooksTableViewController.swift in Sources */,
 				ED9E071B1C90F369004C22C1 /* AppDelegate.swift in Sources */,
 				A9AECDD31D36CAA50051289E /* Model.xcdatamodeld in Sources */,
 				EDFD7F191C92318D004EE292 /* CoreDataTableViewController.swift in Sources */,

@@ -28,4 +28,16 @@ class Note: NSManagedObject {
             fatalError("Unable to find Entity name!")
         }
     }
+    
+    var humanReadableAge: String {
+        get {
+            let fmt = DateFormatter()
+            fmt.timeStyle = .none
+            fmt.dateStyle = .short
+            fmt.doesRelativeDateFormatting = true
+            fmt.locale = Locale.current
+            
+            return fmt.string(from: creationDate!)
+        }
+    }
 }
