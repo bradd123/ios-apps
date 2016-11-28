@@ -13,6 +13,7 @@
 		4D04CC091A1D1E5700FAB0D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D04CC081A1D1E5700FAB0D8 /* Images.xcassets */; };
 		4D04CC0C1A1D1E5700FAB0D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D04CC0A1A1D1E5700FAB0D8 /* LaunchScreen.xib */; };
 		4D04CC221A1D261800FAB0D8 /* Villain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D04CC211A1D261800FAB0D8 /* Villain.swift */; };
+		60AADE071DEC174000789C10 /* VillainDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AADE061DEC174000789C10 /* VillainDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4D04CC081A1D1E5700FAB0D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4D04CC0B1A1D1E5700FAB0D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4D04CC211A1D261800FAB0D8 /* Villain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Villain.swift; sourceTree = "<group>"; };
+		60AADE061DEC174000789C10 /* VillainDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VillainDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				4D04CC031A1D1E5700FAB0D8 /* ViewController.swift */,
 				4D04CC211A1D261800FAB0D8 /* Villain.swift */,
 				4D04CC051A1D1E5700FAB0D8 /* Main.storyboard */,
+				60AADE061DEC174000789C10 /* VillainDetailViewController.swift */,
 				4D04CC0A1A1D1E5700FAB0D8 /* LaunchScreen.xib */,
 				4D04CC081A1D1E5700FAB0D8 /* Images.xcassets */,
 				4D04CBFF1A1D1E5700FAB0D8 /* Supporting Files */,
@@ -150,6 +153,7 @@
 				4D04CC041A1D1E5700FAB0D8 /* ViewController.swift in Sources */,
 				4D04CC021A1D1E5700FAB0D8 /* AppDelegate.swift in Sources */,
 				4D04CC221A1D261800FAB0D8 /* Villain.swift in Sources */,
+				60AADE071DEC174000789C10 /* VillainDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
