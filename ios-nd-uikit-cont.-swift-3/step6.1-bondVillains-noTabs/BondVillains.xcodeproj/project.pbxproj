@@ -14,6 +14,8 @@
 		4D04CC0C1A1D1E5700FAB0D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D04CC0A1A1D1E5700FAB0D8 /* LaunchScreen.xib */; };
 		4D04CC221A1D261800FAB0D8 /* Villain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D04CC211A1D261800FAB0D8 /* Villain.swift */; };
 		4D1828D81A3BCDD5005D80E9 /* VillainDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1828D71A3BCDD5005D80E9 /* VillainDetailViewController.swift */; };
+		60AADE171DEDBEDF00789C10 /* VillainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AADE161DEDBEDF00789C10 /* VillainCollectionViewController.swift */; };
+		60AADE191DEDC47200789C10 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AADE181DEDC47200789C10 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		4D04CC0B1A1D1E5700FAB0D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4D04CC211A1D261800FAB0D8 /* Villain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Villain.swift; sourceTree = "<group>"; };
 		4D1828D71A3BCDD5005D80E9 /* VillainDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VillainDetailViewController.swift; sourceTree = "<group>"; };
+		60AADE161DEDBEDF00789C10 /* VillainCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VillainCollectionViewController.swift; sourceTree = "<group>"; };
+		60AADE181DEDC47200789C10 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				4D04CC0A1A1D1E5700FAB0D8 /* LaunchScreen.xib */,
 				4D04CC081A1D1E5700FAB0D8 /* Images.xcassets */,
 				4D04CBFF1A1D1E5700FAB0D8 /* Supporting Files */,
+				60AADE161DEDBEDF00789C10 /* VillainCollectionViewController.swift */,
+				60AADE181DEDC47200789C10 /* CollectionViewCell.swift */,
 			);
 			path = BondVillains;
 			sourceTree = "<group>";
@@ -152,8 +158,10 @@
 			files = (
 				4D04CC041A1D1E5700FAB0D8 /* ViewController.swift in Sources */,
 				4D04CC021A1D1E5700FAB0D8 /* AppDelegate.swift in Sources */,
+				60AADE191DEDC47200789C10 /* CollectionViewCell.swift in Sources */,
 				4D04CC221A1D261800FAB0D8 /* Villain.swift in Sources */,
 				4D1828D81A3BCDD5005D80E9 /* VillainDetailViewController.swift in Sources */,
+				60AADE171DEDBEDF00789C10 /* VillainCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
